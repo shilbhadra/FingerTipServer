@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <Ambulances xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ambulance.xsd"> -->
+<Ambulances>
+	<ambulance>
+		<id>1</id>
+		<name>Seva Ambulance1</name>
+		<xCoordinate>5.3</xCoordinate>
+		<yCoordinate>4.6</yCoordinate>
+		<address>Sector V Salt Lake</address>
+		<contact>9823478902</contact>
+		<distance>1 km</distance>
+	</ambulance>
+	<ambulance>
+		<id>2</id>
+		<name>Seva Ambulance2</name>
+		<xCoordinate>6</xCoordinate>
+		<yCoordinate>8</yCoordinate>
+		<address>Sector V Salt Lake</address>
+		<contact>9823478902</contact>
+		<distance>1.1 kms</distance>
+	</ambulance>
+	<ambulance>
+		<id>3</id>
+		<name>Seva Ambulance3</name>
+		<xCoordinate>15</xCoordinate>
+		<yCoordinate>23</yCoordinate>
+		<address>Sector V Salt Lake</address>
+		<contact>9823478902</contact>
+		<distance>1.2 kms</distance>
+	</ambulance>
+	<ambulance>
+		<id>4</id>
+		<name>Seva Ambulance4</name>
+		<xCoordinate>2</xCoordinate>
+		<yCoordinate>5</yCoordinate>
+		<address>Sector V Salt Lake</address>
+		<contact>9823478902</contact>
+		<distance>3 kms</distance>
+	</ambulance>
+	<ambulance>
+		<id>5</id>
+		<name>Seva Ambulance5</name>
+		<xCoordinate>23</xCoordinate>
+		<yCoordinate>100</yCoordinate>
+		<address>Sector V Salt Lake</address>
+		<contact>9823478902</contact>
+		<distance>10 kms</distance>
+	</ambulance>
+
+</Ambulances>
+
+

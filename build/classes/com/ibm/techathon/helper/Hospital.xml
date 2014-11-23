@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hospital.xsd"> -->
+<hospitals>
+	<hospital>
+		<id>1</id>
+		<name>Advanced Medicare and Research Institute Ltd.</name>
+		<xCoordinate>22.5817822</xCoordinate>
+		<yCoordinate>88.460697</yCoordinate>
+		<address>Sector 3, Block JC 16 and 17, Salt Lake City, Sech Bhawan, Kolkata - 700091</address>
+		<contact>9830400441</contact>
+		<department>Cardiac,Diabetes,Neurology</department>
+		<distance>1.0 km</distance>
+	</hospital>
+	<hospital>
+		<id>2</id>
+		<name>Amri Hospitals</name>
+		<xCoordinate>22.5817094</xCoordinate>
+		<yCoordinate>88.460573</yCoordinate>
+		<address>Sector 3, JC 16 and 17, Salt Lake City, SAI Sports Complex, Kolkata - 700098</address>
+		<contact>9830400445</contact>
+		<department>Eye,Mental,Neurology</department>
+		<distance>1.2 km</distance>
+	</hospital>
+	<hospital>
+		<id>3</id>
+		<name>Anandalok Charitable Hospital</name>
+		<xCoordinate>22.5818159</xCoordinate>
+		<yCoordinate>88.4603611</yCoordinate>
+		<address>CK 44,Sector 2, Salt Lake City, Sech Bhawan, Kolkata - 700091</address>
+		<contact>9830400447</contact>
+		<department>Dental,Eye,Neurology</department>
+		<distance>1.4 km</distance>
+	</hospital>
+	<hospital>
+		<id>4</id>
+		<name>Bidhannagar Govt Hospital</name>
+		<xCoordinate>22.5517729</xCoordinate>
+		<yCoordinate>88.4302746</yCoordinate>
+		<address>DD 36,Sector 1, Salt Lake City, salt lake, Kolkata - 700064</address>
+		<contact>9830400443</contact>
+		<department>Cardiac,Diabetes,Eye</department>
+		<distance>2.2 km</distance>
+	</hospital>
+	<hospital>
+		<id>5</id>
+		<name>Calcutta Heart Clinic And Hospital</name>
+		<xCoordinate>22.5516803</xCoordinate>
+		<yCoordinate>88.4303912</yCoordinate>
+		<address>Sector 3, Block HC, Salt Lake City, Bidhan Nagar I B Market, KOLKATA - 700106</address>
+		<contact>9830400447</contact>
+		<department>Cardiac,Diabetes,Eye</department>
+		<distance>2.3 km</distance>
+	</hospital>
+	<hospital>
+		<id>6</id>
+		<name>Charnock Hospital And Research Center</name>
+		<xCoordinate>22.5515964</xCoordinate>
+		<yCoordinate>88.4305294</yCoordinate>
+		<address>R G M 2103, NR Haldiram VIP And Junction Of VIP Road, New Town, Teghoria, Kolkata - 700052</address>
+		<contact>9903921134</contact>
+		<department>Cardiac,Dental,Neurology</department>
+		<distance>2.5 km</distance>
+	</hospital>
+	<hospital>
+		<id>7</id>
+		<name>Columbia asia hospital</name>
+		<xCoordinate>22.551767</xCoordinate>
+		<yCoordinate>88.4309344</yCoordinate>
+		<address>IB 193 Sector 3, Sech Bhawan, KOLKATA - 700091</address>
+		<contact>9830400449</contact>
+		<department>Cardiac,Diabetes,Neurology</department>
+		<distance>2.6 km</distance>
+	</hospital>
+	<hospital>
+		<id>8</id>
+		<name>Esi Hospital</name>
+		<xCoordinate>22.5115645</xCoordinate>
+		<yCoordinate>88.4108479</yCoordinate>
+		<address>55, Bagmari Road, Kankurgachi, Kolkata - 700054</address>
+		<contact>9830400440</contact>
+		<department>Cardiac,Diabetes,Dental</department>
+		<distance>3.2 km</distance>
+	</hospital>
+	<hospital>
+		<id>9</id>
+		<name>ID Hospital Beliaghata</name>
+		<xCoordinate>22.5114964</xCoordinate>
+		<yCoordinate>88.4105897</yCoordinate>
+		<address>57, Beliaghata Main Road, Kolkata - 700010</address>
+		<contact>9830400446</contact>
+		<department>Cardiac,Diabetes,Mental</department>
+		<distance>3.7 km</distance>
+	</hospital>
+	<hospital>
+		<id>10</id>
+		<name>Matri Sadan</name>
+		<xCoordinate>22.5115348</xCoordinate>
+		<yCoordinate>88.4103544</yCoordinate>
+		<address>Ee 55a,Sector 2, Tank 10, Salt Lake City, Sech Bhawan, Kolkata - 700091</address>
+		<contact>9830400444</contact>
+		<department>Eye,Mental,Dental</department>
+		<distance>3.3 km</distance>
+	</hospital>
+</hospitals>
+
