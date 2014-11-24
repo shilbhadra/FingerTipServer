@@ -1,9 +1,5 @@
 package com.ibm.techathon.helper;
 
-
-import java.io.File;
-
-import javax.servlet.ServletContext;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -24,6 +20,8 @@ public class DoctorHelper {
 	String contact;
 	String distance;
 	String availability;
+	String latitudeStr;
+	String longitudeStr;
 	private double xLattitude;
 	private double yLongitude;
 
@@ -129,24 +127,39 @@ public class DoctorHelper {
 						
 						// -- end
 						
+						// -------Latitude--
+						NodeList latitudeList = firstDoctorElement.getElementsByTagName("xCoordinate");
+						Element latitudeElement = (Element) latitudeList.item(0);
+						NodeList textlatitudeList = latitudeElement.getChildNodes();
+						latitudeStr = textlatitudeList.item(0).getNodeValue().trim();
+						// -- end
+						
+						// -------Longitude--
+						NodeList longitudeList = firstDoctorElement.getElementsByTagName("yCoordinate");
+						Element longitudeElement = (Element) longitudeList.item(0);
+						NodeList textlongitudeList = longitudeElement.getChildNodes();
+						longitudeStr = textlongitudeList.item(0).getNodeValue().trim();
+						// -- end
+						
 					
 						distance=uHelper.getCalculatedDistance();
 						
-				sbuf.append("\n" + IMedicalAidConstants.DOCTOR_START_TAG);
-				sbuf.append("\n" + IMedicalAidConstants.ID_START_TAG + id
-						+ IMedicalAidConstants.ID_END_TAG);
-				sbuf.append("\n" + IMedicalAidConstants.NAME_START_TAG + name
-						+ IMedicalAidConstants.NAME_END_TAG);
-				sbuf.append("\n" + IMedicalAidConstants.ADDRESS_START_TAG
-						+ address + IMedicalAidConstants.ADDRESS_END_TAG);
-				sbuf.append("\n" + IMedicalAidConstants.CONTACT_START_TAG
-						+ contact + IMedicalAidConstants.CONTACT_END_TAG);
-				sbuf.append("\n" + IMedicalAidConstants.DISTANCE_START_TAG
-						+ distance + IMedicalAidConstants.DISTANCE_END_TAG);
-				sbuf.append("\n" + IMedicalAidConstants.AVL_START_TAG
-						+ availability + IMedicalAidConstants.AVL_END_TAG);
-				
-				sbuf.append("\n" + IMedicalAidConstants.DOCTOR_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.DOCTOR_START_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.ID_START_TAG + id
+								+ IMedicalAidConstants.ID_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.NAME_START_TAG + name
+								+ IMedicalAidConstants.NAME_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.ADDRESS_START_TAG
+								+ address + IMedicalAidConstants.ADDRESS_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.CONTACT_START_TAG
+								+ contact + IMedicalAidConstants.CONTACT_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.DISTANCE_START_TAG
+								+ distance + IMedicalAidConstants.DISTANCE_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.AVL_START_TAG
+								+ availability + IMedicalAidConstants.AVL_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.LONGITUDE_START_TAG + longitudeStr + IMedicalAidConstants.LONGITUDE_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.LATITUDE_START_TAG + latitudeStr + IMedicalAidConstants.LATITUDE_END_TAG);
+						sbuf.append("\n" + IMedicalAidConstants.DOCTOR_END_TAG);
 				
 				
 					}// if Boolean

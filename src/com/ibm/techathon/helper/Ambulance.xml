@@ -3,7 +3,7 @@
 <ambulances>
 	<ambulance>
 		<id>1</id>
-		<name>Adittya Shishu Sangha</name>
+		<name>Aditya Shishu Sangha</name>
 		<xCoordinate>22.5817822</xCoordinate>
 		<yCoordinate>88.460697</yCoordinate>
 		<address>Nayapatty, Krishnapur, Kolkata - 700102</address>
@@ -12,10 +12,10 @@
 	</ambulance>
 	<ambulance>
 		<id>2</id>
-		<name>Ambulance service Baguiati</name>
+		<name>Baguiati Ambulance Service</name>
 		<xCoordinate>22.5817094</xCoordinate>
 		<yCoordinate>88.460573</yCoordinate>
-		<address>Word No 29, Gouranga Nagar, Adarsha Pally-Baguiati, Kolkata - 700059</address>
+		<address>Ward 29, Gouranga Nagar, Adarsha Pally, Baguiati, Kolkata - 700059</address>
 		<contact>9748438003</contact>
 		<distance>1.1 kms</distance>
 	</ambulance>
@@ -24,16 +24,16 @@
 		<name>Ambulance Pariseva</name>
 		<xCoordinate>22.5818159</xCoordinate>
 		<yCoordinate>88.4603611</yCoordinate>
-		<address>BE 7/9, Janakalyan Samity, Deshbandhu Nagar, Deshbandhunagar, KOLKATA - 700059</address>
+		<address>BE 7/9, Janakalyan Samity, Deshbandhu Nagar, Deshbandhunagar, Kolkata - 700059</address>
 		<contact>9051033762</contact>
 		<distance>1.2 kms</distance>
 	</ambulance>
 	<ambulance>
 		<id>4</id>
-		<name>Arijit Mondal</name>
+		<name>Arijit Mondal Ambulance Service</name>
 		<xCoordinate>22.5517729</xCoordinate>
 		<yCoordinate>88.4302746</yCoordinate>
-		<address>Rajarhat Road, Taltola, Baguihati, Kolkata - 700059</address>
+		<address>Rajarhat Road, Taltola, Baguiati, Kolkata - 700059</address>
 		<contact>9733917254</contact>
 		<distance>3.1 kms</distance>
 	</ambulance>
@@ -42,7 +42,7 @@
 		<name>Baguiati Subhash Sangha</name>
 		<xCoordinate>22.5516803</xCoordinate>
 		<yCoordinate>88.4303912</yCoordinate>
-		<address>R G M 46, Rabindra Pally, Baguihati, Kolkata - 700059</address>
+		<address>46 R.G.M., Rabindra Pally, Baguihati, Kolkata - 700059</address>
 		<contact>9830400442</contact>
 		<distance>4.0 kms</distance>
 	</ambulance>
@@ -51,16 +51,16 @@
 		<name>Bliss Nursing Home</name>
 		<xCoordinate>22.5515964</xCoordinate>
 		<yCoordinate>88.4305294</yCoordinate>
-		<address>B-1, Rajarhat Road, Baguiati, Jora Mandir, Rajarhat, Kolkata</address>
+		<address>B-1, Rajarhat Road, Baguiati, Jora Mandir, Rajarhat, Kolkata - 700059</address>
 		<contact>9830400422</contact>
 		<distance>3.2 kms</distance>
 	</ambulance>
 	<ambulance>
 		<id>7</id>
-		<name>Fd Block Association</name>
+		<name>Saltlake FD Block Association</name>
 		<xCoordinate>22.551767</xCoordinate>
 		<yCoordinate>88.4309344</yCoordinate>
-		<address> Block FD, Sector 3, Salt Lake City, Bidhan Nagar I B Market, Kolkata - 700106</address>
+		<address> Block FD, Sector 3, Salt Lake City, Bidhan Nagar IB Market, Kolkata - 700106</address>
 		<contact>9830400423</contact>
 		<distance>2.2 kms</distance>
 	</ambulance>
@@ -69,7 +69,7 @@
 		<name>Matri Sadan</name>
 		<xCoordinate>22.5115645</xCoordinate>
 		<yCoordinate>88.4108479</yCoordinate>
-		<address> Ee 55a,Sector 2, Tank 10, Salt Lake City, Sech Bhawan, Kolkata - 700091</address>
+		<address>55A Block EE,Sector 2, Bidhan Nagar, Kolkata - 700091</address>
 		<contact>9830400445</contact>
 		<distance>2.4 kms</distance>
 	</ambulance>
@@ -78,19 +78,17 @@
 		<name>Rabindra Pally Sanahati</name>
 		<xCoordinate>22.5114964</xCoordinate>
 		<yCoordinate>88.4105897</yCoordinate>
-		<address>A D 107, Kesthupur, Rabindra Pally, Prafulla Kanan, Kolkata - 700101</address>
+		<address>AD 107, Keshtopur, Rabindra Pally, Prafulla Kanan, Kolkata - 700101</address>
 		<contact>9674387427</contact>
 		<distance>4.4 kms</distance>
 	</ambulance>
 	<ambulance>
 		<id>10</id>
-		<name>Radha Krishna Mondal</name>
+		<name>Radha Krishna Mondal Ambulance Service</name>
 		<xCoordinate>22.5103751</xCoordinate>
 		<yCoordinate>88.410929</yCoordinate>
-		<address>59/1, Krishnapur, Kolkata, Krishnapur, Kolkata - 700102</address>
+		<address>59/1, Krishnapur, Kolkata - 700102</address>
 		<contact>9830400446</contact>
 		<distance>3.2 kms</distance>
 	</ambulance>
 </ambulances>
-
-

@@ -8,7 +8,7 @@
 		<yCoordinate>88.460697</yCoordinate>
 		<address>GD-1, Eden Shop, Rajarhat New Town, Kolkata - 700156</address>
 		<contact>9674013667</contact>
-		<availability>Monday 11am-3pm,Wednesday 2pm-5pm</availability>
+		<availability>Monday (11am to 3pm), Wednesday (2pm to 5pm)</availability>
 		<distance>1.0 km</distance>
 	</doctor>
 	<doctor>
@@ -18,7 +18,7 @@
 		<yCoordinate>88.460573</yCoordinate>
 		<address>33, Sikdar Para Street, Rajarhat New Town, Kolkata - 700007</address>
 		<contact>9831119795</contact>
-		<availability>Tuesday 7am-11am,Wednesday 6pm-8pm,Thursday 7pm-8pm</availability>
+		<availability>Tuesday (7am - 11am), Wednesday (6pm - 8pm), Thursday (7pm - 8pm)</availability>
 		<distance>1.1 kms</distance>
 	</doctor>
 	<doctor>
@@ -28,7 +28,7 @@
 		<yCoordinate>88.4603611</yCoordinate>
 		<address>Kali Bari Complex, Rajarhat, Kolkata - 700135</address>
 		<contact>9831129797</contact>
-		<availability>Monday 10am-2pm,Tuesday 10am-1pm,Wednesday 6pm-8pm</availability>
+		<availability>Monday (10am - 2pm), Tuesday (10am - 1pm), Wednesday (6pm - 8pm)</availability>
 		<distance>1.2 kms</distance>
 	</doctor>
 	<doctor>
@@ -38,7 +38,7 @@
 		<yCoordinate>88.4302746</yCoordinate>
 		<address>30-A, Aswini Dutta Road, Triangular Park, Kolkata - 700029</address>
 		<contact>9831119791</contact>
-		<availability>Sunday 10am-2pm,Monday 10am-1pm,Tuesday 6pm-8pm</availability>
+		<availability>Sunday (10am - 2pm), Monday (10am - 1pm), Tuesday (6pm - 8pm)</availability>
 		<distance>3.1 kms</distance>
 	</doctor>
 	<doctor>
@@ -46,9 +46,9 @@
 		<name>Dr. Dipankar Sarkar</name>
 		<xCoordinate>22.5516803</xCoordinate>
 		<yCoordinate>88.4303912</yCoordinate>
-		<address>2/6-A, Naktala, Opposite Shakti Sangha club, Kolkata - 700047</address>
+		<address>2/6-A, Naktala, Opposite Shakti Sangha Club, Kolkata - 700047</address>
 		<contact>9831061271</contact>
-		<availability>Sunday 10am-2pm,Tuesday 10am-1pm,Thursday 6pm-8pm</availability>
+		<availability>Sunday (10am - 2pm), Tuesday (10am - 1pm), Thursday (6pm - 8pm)</availability>
 		<distance>4.0 kms</distance>
 	</doctor>
 	<doctor>
@@ -58,7 +58,7 @@
 		<yCoordinate>88.4305294</yCoordinate>
 		<address>Bidhan Nagar (Salt Lake), Kolkata - 700106</address>
 		<contact>9831119793</contact>
-		<availability>Monday 10am-2pm,Tuesday 10am-1pm,Wednesday 6pm-8pm</availability>
+		<availability>Monday (10am - 2pm), Tuesday (10am - 1pm), Wednesday (6pm - 8pm)</availability>
 		<distance>3.2 kms</distance>
 	</doctor>
 	<doctor>
@@ -68,7 +68,7 @@
 		<yCoordinate>88.4309344</yCoordinate>
 		<address>L-14, Purbachal Housing, Cluster 13, Sector 3, Salt Lake, Kolkata - 700097</address>
 		<contact>9830155915</contact>
-		<availability>Sunday 10am-2pm,Wednesday 6pm-8pm</availability>
+		<availability>Sunday (10am - 2pm), Wednesday (6pm - 8pm)</availability>
 		<distance>2.2 kms</distance>
 	</doctor>
 	<doctor>
@@ -78,17 +78,17 @@
 		<yCoordinate>88.4108479</yCoordinate>
 		<address>F43/7, Karunamayee, Bidhan Nagar (Salt Lake), Kolkata - 700091</address>
 		<contact>9831119744</contact>
-		<availability>Monday 7am-10am,Tuesday 10am-1pm,Wednesday 6pm-8pm</availability>
+		<availability>Monday (7am - 10am), Tuesday (10am - 1pm), Wednesday (6pm - 8pm)</availability>
 		<distance>2.4 kms</distance>
 	</doctor>
 	<doctor>
 		<id>9</id>
-		<name>Dr. B Halder</name>
+		<name>Dr. B. Halder</name>
 		<xCoordinate>22.5114964</xCoordinate>
 		<yCoordinate>88.4105897</yCoordinate>
 		<address>169, CIT Road, Kankurgachi, Kolkata - 700054</address>
 		<contact>9831119117</contact>
-		<availability>Monday 7am-11am,Tuesday 10am-1pm,Thursday 7pm-9pm</availability>
+		<availability>Monday (7am - 11am), Tuesday (10am - 1pm), Thursday (7pm - 9pm)</availability>
 		<distance>4.4 kms</distance>
 	</doctor>
 	<doctor>
@@ -96,9 +96,9 @@
 		<name>Dr. Om Tantia</name>
 		<xCoordinate>22.5103751</xCoordinate>
 		<yCoordinate>88.410929</yCoordinate>
-		<address>Block-D-D-6, Sector-1, Bidhan Nagar (Salt Lake), Kolkata - 700064</address>
+		<address>Block - D6, Sector - 1, Bidhan Nagar (Salt Lake), Kolkata - 700064</address>
 		<contact>9830400441</contact>
-		<availability>Monday 10am-2pm,Tuesday 10am-1pm,Friday 6pm-8pm</availability>
+		<availability>Monday (10am - 2pm), Tuesday (10am - 1pm), Friday (6pm - 8pm)</availability>
 		<distance>3.2 kms</distance>
 	</doctor>
 </doctors>

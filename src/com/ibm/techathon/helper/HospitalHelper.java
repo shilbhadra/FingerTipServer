@@ -1,9 +1,5 @@
 package com.ibm.techathon.helper;
 
-
-import java.io.File;
-
-import javax.servlet.ServletContext;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -24,6 +20,8 @@ public class HospitalHelper {
 	String contact;
 	String distance;
 	String department;
+	String latitudeStr;
+	String longitudeStr;
 	private double xLattitude;
 	private double yLongitude;
 
@@ -129,6 +127,20 @@ public class HospitalHelper {
 						
 						// -- end
 						
+						// -------Latitude--
+						NodeList latitudeList = firstHospitalElement.getElementsByTagName("xCoordinate");
+						Element latitudeElement = (Element) latitudeList.item(0);
+						NodeList textlatitudeList = latitudeElement.getChildNodes();
+						latitudeStr = textlatitudeList.item(0).getNodeValue().trim();
+						// -- end
+						
+						// -------Longitude--
+						NodeList longitudeList = firstHospitalElement.getElementsByTagName("yCoordinate");
+						Element longitudeElement = (Element) longitudeList.item(0);
+						NodeList textlongitudeList = longitudeElement.getChildNodes();
+						longitudeStr = textlongitudeList.item(0).getNodeValue().trim();
+						// -- end
+						
 					
 						distance=uHelper.getCalculatedDistance();
 						
@@ -145,7 +157,8 @@ public class HospitalHelper {
 						+ distance + IMedicalAidConstants.DISTANCE_END_TAG);
 				sbuf.append("\n" + IMedicalAidConstants.DEPT_START_TAG
 						+ department + IMedicalAidConstants.DEPT_END_TAG);
-				
+				sbuf.append("\n" + IMedicalAidConstants.LONGITUDE_START_TAG + longitudeStr + IMedicalAidConstants.LONGITUDE_END_TAG);
+				sbuf.append("\n" + IMedicalAidConstants.LATITUDE_START_TAG + latitudeStr + IMedicalAidConstants.LATITUDE_END_TAG);
 				sbuf.append("\n" + IMedicalAidConstants.HOSPITAL_END_TAG);
 				
 				

@@ -30,6 +30,12 @@ public interface IMedicalAidConstants {
 	public String ADDRESS_START_TAG="<address>";
 	public String ADDRESS_END_TAG="</address>";
 	
+	public String LONGITUDE_START_TAG="<longitude>";
+	public String LONGITUDE_END_TAG="</longitude>";
+	
+	public String LATITUDE_START_TAG="<latitude>";
+	public String LATITUDE_END_TAG="</latitude>";
+	
 	
 	// Hospitals
 	
